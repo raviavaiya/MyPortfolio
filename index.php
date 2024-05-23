@@ -14,13 +14,13 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-<<<<<<< HEAD
+  
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
-=======
+
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
     rel="stylesheet">
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -105,12 +105,12 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-emoji-smile" style="color: #20b38e;"></i>
-<<<<<<< HEAD
+
                     <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
-=======
+
                     <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1"
                       class="purecounter"></span>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
                     <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                   </div>
                 </div>
@@ -118,12 +118,12 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-journal-richtextr" style="color: #8a1ac2;"></i>
-<<<<<<< HEAD
+
                     <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
-=======
+
                     <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"
                       class="purecounter"></span>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
                     <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
                     </p>
                   </div>
@@ -131,12 +131,12 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-clock" style="color: #2cbdee;"></i>
-<<<<<<< HEAD
+
                     <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
-=======
+
                     <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
                       class="purecounter"></span>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
                     <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate
                       non vel</p>
                   </div>
@@ -145,12 +145,12 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-award" style="color: #ffb459;"></i>
-<<<<<<< HEAD
+
                     <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-=======
+
                     <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
                       class="purecounter"></span>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
                     <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                   </div>
                 </div>
@@ -446,16 +446,16 @@
               <div class="portfolio-info">
                 <h4>Footwear Shop Management System</h4>
                 <p>Asp.Net</p>
-<<<<<<< HEAD
+
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Footwear Shop Management System - Asp.Net"><i class="bx bx-plus"></i></a>
                 <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i class="bx bxl-github"></i></a>
-=======
+
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                   class="portfolio-lightbox preview-link" title="Footwear Shop Management System - Asp.Net"><i
                     class="bx bx-plus"></i></a>
                 <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i
                     class="bx bxl-github"></i></a>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
               </div>
             </div>
           </a>
@@ -467,16 +467,16 @@
               <div class="portfolio-info">
                 <h4>Footwear Shop Management System</h4>
                 <p>PHP</p>
-<<<<<<< HEAD
+
                 <a href="assets/img/portfolio/portfolio-10.webp" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Footwear Shop Management System - PHP"><i class="bx bx-plus"></i></a>
                 <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i class="bx bxl-github"></i></a>
-=======
+
                 <a href="assets/img/portfolio/portfolio-10.webp" data-gallery="portfolioGallery"
                   class="portfolio-lightbox preview-link" title="Footwear Shop Management System - PHP"><i
                     class="bx bx-plus"></i></a>
                 <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i
                     class="bx bxl-github"></i></a>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
               </div>
             </div>
           </a>
@@ -520,32 +520,32 @@
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4"><a href="mailto:raviavaiya03@gmail.com">
-<<<<<<< HEAD
+
                     <i class="bx bx-envelope"></i>
                     <h3>Email Me</h3>
                   </a>
-=======
+
                   <i class="bx bx-envelope"></i>
                   <h3>Email Me</h3></a>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
                   <p>raviavaiya03@gmail.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <a href="tel:918799559020">
-<<<<<<< HEAD
+
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Me</h3>
                   </a>
                   <p>+91 8799559020</p>
 
-=======
+
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Me</h3>  </a>
                   <p>+91 8799559020</p>
               
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
                 </div>
               </div>
             </div>
@@ -553,11 +553,11 @@
           </div>
 
           <div class="col-lg-6">
-<<<<<<< HEAD
+
             <form action="index.php" method="post" role="form" class="php-email-form">
-=======
+
             <form action="assets/vendor/php-email-form/mail_config.php" method="post" role="form" class="php-email-form">
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -570,22 +570,22 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-<<<<<<< HEAD
+
                 <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message" required></textarea>
-=======
+
                 <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-<<<<<<< HEAD
+
               <div class="text-center"><button type="submit" name="send">Send Message</button></div>
-=======
+
               <div class="text-center"><button type="submit" name="submit">Send Message</button></div>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
             </form>
           </div>
 
@@ -620,12 +620,11 @@
     </div>
   </footer><!-- End Footer -->
 
-<<<<<<< HEAD
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-=======
+
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -696,6 +695,4 @@ if (isset($_POST['send'])) {
 }
 
 ?>
-=======
-<!-- It's second commit -->
->>>>>>> 4bf71b16dca2daf66df985eeb4a753330a9d08aa
+
