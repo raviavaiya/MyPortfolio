@@ -14,9 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -101,8 +99,7 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-emoji-smile" style="color: #20b38e;"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                   </div>
                 </div>
@@ -110,8 +107,7 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-journal-richtextr" style="color: #8a1ac2;"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
                     </p>
                   </div>
@@ -119,8 +115,7 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-clock" style="color: #2cbdee;"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate
                       non vel</p>
                   </div>
@@ -129,8 +124,7 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-award" style="color: #ffb459;"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                   </div>
                 </div>
@@ -426,11 +420,8 @@
               <div class="portfolio-info">
                 <h4>Footwear Shop Management System</h4>
                 <p>Asp.Net</p>
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Footwear Shop Management System - Asp.Net"><i
-                    class="bx bx-plus"></i></a>
-                <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i
-                    class="bx bxl-github"></i></a>
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Footwear Shop Management System - Asp.Net"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i class="bx bxl-github"></i></a>
               </div>
             </div>
           </a>
@@ -442,11 +433,8 @@
               <div class="portfolio-info">
                 <h4>Footwear Shop Management System</h4>
                 <p>PHP</p>
-                <a href="assets/img/portfolio/portfolio-10.webp" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link" title="Footwear Shop Management System - PHP"><i
-                    class="bx bx-plus"></i></a>
-                <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i
-                    class="bx bxl-github"></i></a>
+                <a href="assets/img/portfolio/portfolio-10.webp" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Footwear Shop Management System - PHP"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/raviavaiya/" target="_blank" class="details-link" title="More Details"><i class="bx bxl-github"></i></a>
               </div>
             </div>
           </a>
@@ -490,18 +478,20 @@
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4"><a href="mailto:raviavaiya03@gmail.com">
-                  <i class="bx bx-envelope"></i>
-                  <h3>Email Me</h3></a>
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Me</h3>
+                  </a>
                   <p>raviavaiya03@gmail.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <a href="tel:918799559020">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>Call Me</h3>  </a>
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Call Me</h3>
+                  </a>
                   <p>+91 8799559020</p>
-              
+
                 </div>
               </div>
             </div>
@@ -509,7 +499,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="assets/vendor/php-email-form/mail_config.php" method="post" role="form" class="php-email-form">
+            <form action="index.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -522,14 +512,14 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit" name="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" name="send">Send Message</button></div>
             </form>
           </div>
 
@@ -564,8 +554,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -583,4 +572,55 @@
 
 </html>
 
-<!-- It's second commit -->
+<?php
+
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+if (isset($_POST['send'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
+
+
+  //Load Composer's autoloader
+  require 'PHPMailer/Exception.php';
+  require 'PHPMailer/PHPMailer.php';
+  require 'PHPMailer/SMTP.php';
+
+  //Create an instance; passing `true` enables exceptions
+  $mail = new PHPMailer(true);
+
+  try {
+    //Server settings
+                       //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'raviavaiya03@gmail.com';                     //SMTP username
+    $mail->Password   = 'jaef ngvp ocsc rjzz';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    //Recipients
+    $mail->setFrom('raviavaiya03@gmail.com', 'My Portfolio');
+    $mail->addAddress('raviavaiya03@gmail.com', 'My Portfolio');     //Add a recipient
+
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Portfolio Contact Inquiry';
+    $mail->Body    = "<h4>Email From : <b> {$email} </b></h4><br><h3>Subject :<b>{$subject}</b></h3><br><h4>Full Name : <b>{$name}</b></h4><br><h5>Message :<b>{$message}</b></h5>";
+
+    $mail->send();
+    echo 'Message has been sent';
+  } catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  }
+}
+
+?>
