@@ -108,8 +108,7 @@
 
                     <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
 
-                    <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                   
 
                     <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                   </div>
@@ -121,8 +120,7 @@
 
                     <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
 
-                    <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                   
 
                     <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
                     </p>
@@ -134,8 +132,7 @@
 
                     <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
 
-                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                    
 
                     <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate
                       non vel</p>
@@ -148,8 +145,7 @@
 
                     <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
 
-                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
-                      class="purecounter"></span>
+                    
 
                     <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                   </div>
@@ -525,8 +521,7 @@
                     <h3>Email Me</h3>
                   </a>
 
-                  <i class="bx bx-envelope"></i>
-                  <h3>Email Me</h3></a>
+               
 
                   <p>raviavaiya03@gmail.com</p>
                 </div>
@@ -541,9 +536,7 @@
                   <p>+91 8799559020</p>
 
 
-                  <i class="bx bx-phone-call"></i>
-                  <h3>Call Me</h3>  </a>
-                  <p>+91 8799559020</p>
+                  
               
 
                 </div>
@@ -573,7 +566,7 @@
 
                 <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message" required></textarea>
 
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                
 
               </div>
               <div class="my-3">
@@ -584,7 +577,7 @@
 
               <div class="text-center"><button type="submit" name="send">Send Message</button></div>
 
-              <div class="text-center"><button type="submit" name="submit">Send Message</button></div>
+             
 
             </form>
           </div>
@@ -642,7 +635,6 @@
 
 </html>
 
-<<<<<<< HEAD
 <?php
 
 //Import PHPMailer classes into the global namespace
