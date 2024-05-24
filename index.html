@@ -80,6 +80,58 @@
     };
   </script>
 
+
+  <script>
+    function sendmail(event) {
+      event.preventDefault();
+
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+      var message = document.getElementById("message").value;
+
+      if (!name || !email || !subject || !message) {
+        alert("Please fill in all fields");
+        return false;
+      }
+
+      var params = {
+        from_name: name,
+        email_id: email,
+        subject: subject,
+        message: message
+      };
+
+      emailjs.send("service_t6dez1t", "template_vk0opsp", params).then(function (res) {
+
+        Toastify({
+          text: 'Your message has been sent. Thank you!',
+          duration: 3000,
+          gravity: 'top',
+          position: 'right',
+          backgroundColor: '#4CAF50',
+          stopOnFocus: true,
+        }).showToast();
+        document.getElementById("contact-form").reset(); // Clear the form
+      }).catch(function (err) {
+        alert("Failed to send email. Please try again later.");
+        document.querySelector(".error-message").style.display = "block";
+      });
+
+      return false;
+    }
+  </script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "xJ0yhPKDfzKHNQIEm",
+      });
+    })();
+  </script>
+
 </head>
 
 <body>
@@ -611,42 +663,39 @@
 
           <div class="col-lg-6">
 
-            <form action="index.php" method="post" role="form" class="php-email-form">
+            <form onsubmit="return sendmail(event)" role="form" class="php-email-form" id="contact-form">
 
-              <form action="assets/vendor/php-email-form/mail_config.php" method="post" role="form"
-                class="php-email-form">
-
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
-                <div class="form-group mt-3">
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
 
-                  <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message"
-                    required></textarea>
-
-
-
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-
-                <div class="text-center"><button type="submit" onclick="sendmail()" name="send">Send Message</button>
-                </div>
+                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message"
+                  required></textarea>
 
 
 
-              </form>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+
+              <div class="text-center"><button type="submit">Send Message</button>
+              </div>
+
+
+
+            </form>
           </div>
 
         </div>
@@ -698,53 +747,11 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init({
-        publicKey: "xJ0yhPKDfzKHNQIEm",
-      });
-    })();
-  </script>
-  <script>
-    function sendmail() {
-      var params = {
-        from_name: document.getElementById("name").value,
-        email_id: document.getElementById("email").value,
-        subject: document.getElementById("subject").value,
-        message: document.getElementById("message").value
-      }
-      emailjs.send("service_t6dez1t", "template_vk0opsp", params).then(function (res) {
-        alert("success");
-        Toastify({
-          text: "Your message has been sent. Thank you!",
-          duration: 3000,
-          newWindow: true,
-          close: true,
-          gravity: "top", // `top` or `bottom`
-          position: "right", // `left`, `center` or `right`
-          stopOnFocus: true, // Prevents dismissing of toast on hover
-          style: {
-            background: "linear-gradient(to right, #00b09b, #96c93d)",
-          },
-          onClick: function () { } // Callback after click
-        }).showToast();
-      })
-
-    }
-  </script>
-
-
 
 </body>
 
