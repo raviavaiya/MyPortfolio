@@ -320,7 +320,6 @@ h6 {
   background: url("../img/hero-bg.jpg") top right;
   background-size: cover;
   position: relative;
-  background-position: center;
 }
 
 #hero:before {
@@ -336,7 +335,7 @@ h6 {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: -30%;
+  top: 0;
   left: 0;
   right: 0;
   display: flex;
@@ -383,6 +382,13 @@ h6 {
 }
 
 @media (max-width: 575px) {
+  #hero {
+    background-position: center;
+  }
+
+  #hero .hero-container {
+    top: -30%;
+  }
   #hero h1 {
     font-size: 40px;
   }
