@@ -950,6 +950,13 @@ section {
   transition: all 0.8s ease-in-out;
 }
 
+.portfolio .portfolio-item .portfolio-img img {
+  height: 250px; /* Adjust as needed */
+  object-fit: cover;
+  width: 100%;
+}
+
+
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
