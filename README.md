@@ -1,3 +1,4 @@
+[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsM...)](https://raviavaiya-portfolio.vercel.app/)
 <h1 align="center">Hi 👋, I'm Ravi Avaiya</h1>
 <h3 align="center">A passionate AI/ML Engineer from India</h3>
 <img align="right" alt="Coding" width="400" src="https://en.sepoin.com/wp-content/uploads/2020/01/AI-ML-4.jpg">
