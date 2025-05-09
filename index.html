@@ -83,6 +83,40 @@
     };
   </script>
 
+<script>
+  function calculateAge(birthDateString) {
+    // Convert "DD-MM-YYYY" to a Date object
+    const parts = birthDateString.split("-");
+    const day = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1; // JS months are 0-based
+    const year = parseInt(parts[2], 10);
+
+    const birthDate = new Date(year, month, day);
+    const today = new Date();
+
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    const dayDiff = today.getDate() - birthDate.getDate();
+
+    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+      age--;
+    }
+
+    return age;
+  }
+
+  function updateAge() {
+    const birthDateString = "04-08-2003"; // Hardcoded birthdate
+    const ageSpan = document.getElementById("ageOutput");
+
+    const age = calculateAge(birthDateString);
+    ageSpan.textContent = age;
+  }
+
+  // Call updateAge on page load
+  window.onload = updateAge;
+</script>
+
 
   <script>
     function sendmail(event) {
@@ -199,7 +233,7 @@
 
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="ageOutput"></span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong><span>raviavaiya03@gmail.com</span>
                     </li>
