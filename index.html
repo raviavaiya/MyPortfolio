@@ -66,6 +66,57 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .typing-text::after {
+      content: '|';
+      animation: blink 0.7s infinite;
+      margin-left: 2px;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const roles = ["a Data Scientist ", "a Machine Learning Engineer ", "a Freelancer "];
+      let roleIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+      const typedSpan = document.getElementById("typed-role");
+
+      function typeEffect() {
+        const currentRole = roles[roleIndex];
+
+        if (isDeleting) {
+          typedSpan.textContent = currentRole.substring(0, charIndex--);
+        } else {
+          typedSpan.textContent = currentRole.substring(0, charIndex++);
+        }
+
+        if (!isDeleting && charIndex === currentRole.length) {
+          isDeleting = true;
+          setTimeout(typeEffect, 2000); // Pause at full word
+        } else if (isDeleting && charIndex === 0) {
+          isDeleting = false;
+          roleIndex = (roleIndex + 1) % roles.length;
+          setTimeout(typeEffect, 500); // Pause before typing next
+        } else {
+          setTimeout(typeEffect, isDeleting ? 50 : 100);
+        }
+      }
+
+      typeEffect();
+    });
+  </script>
   <script>
     // Function to hide the message box after a delay
     function hideMessageBox() {
@@ -195,7 +246,7 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Ravi Avaiya</h1>
-      <h2>I'm a Data Scientist</h2>
+      <h2>I'm <span class="typing-text" id="typed-role"></span></h2>
       <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
