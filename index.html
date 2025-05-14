@@ -83,39 +83,39 @@
     };
   </script>
 
-<script>
-  function calculateAge(birthDateString) {
-    // Convert "DD-MM-YYYY" to a Date object
-    const parts = birthDateString.split("-");
-    const day = parseInt(parts[0], 10);
-    const month = parseInt(parts[1], 10) - 1; // JS months are 0-based
-    const year = parseInt(parts[2], 10);
+  <script>
+    function calculateAge(birthDateString) {
+      // Convert "DD-MM-YYYY" to a Date object
+      const parts = birthDateString.split("-");
+      const day = parseInt(parts[0], 10);
+      const month = parseInt(parts[1], 10) - 1; // JS months are 0-based
+      const year = parseInt(parts[2], 10);
 
-    const birthDate = new Date(year, month, day);
-    const today = new Date();
+      const birthDate = new Date(year, month, day);
+      const today = new Date();
 
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const monthDiff = today.getMonth() - birthDate.getMonth();
-    const dayDiff = today.getDate() - birthDate.getDate();
+      let age = today.getFullYear() - birthDate.getFullYear();
+      const monthDiff = today.getMonth() - birthDate.getMonth();
+      const dayDiff = today.getDate() - birthDate.getDate();
 
-    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
-      age--;
+      if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+        age--;
+      }
+
+      return age;
     }
 
-    return age;
-  }
+    function updateAge() {
+      const birthDateString = "04-08-2003"; // Hardcoded birthdate
+      const ageSpan = document.getElementById("ageOutput");
 
-  function updateAge() {
-    const birthDateString = "04-08-2003"; // Hardcoded birthdate
-    const ageSpan = document.getElementById("ageOutput");
+      const age = calculateAge(birthDateString);
+      ageSpan.textContent = age;
+    }
 
-    const age = calculateAge(birthDateString);
-    ageSpan.textContent = age;
-  }
-
-  // Call updateAge on page load
-  window.onload = updateAge;
-</script>
+    // Call updateAge on page load
+    window.onload = updateAge;
+  </script>
 
 
   <script>
@@ -375,6 +375,23 @@
                 equips students with the necessary skills to excel in data-driven careers. The program fosters
                 analytical thinking, problem-solving, and technical expertise, preparing students for success in the
                 evolving world of data science.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Diploma in Data Science &amp; Artificial Intelligence</h4>
+              <h5>Jan 2025 - March 2025</h5>
+              <p><em>Data Science Intern - Remote - Spinnaker Analytics</em></p>
+              <p> Passionate Data Science Intern with hands-on experience in research-based projects,
+                focusing on machine learning, data classification, and predictive modeling. Skilled in data
+                preprocessing, exploratory data analysis, model development, and deployment.
+              </p>
+              <p>As part of my research-based project at Spinnaker Analytics, I am working on predictive modeling
+                focused on weather pattern classification and movie performance forecasting. Supported by a cutting-edge
+                curriculum, expert mentorship, and advanced analytical tools, this project enhances my skills in data
+                preprocessing, machine learning, and real-world problem-solving—preparing me for a successful career in
+                the dynamic field of data science.</p>
             </div>
           </div>
         </div>
